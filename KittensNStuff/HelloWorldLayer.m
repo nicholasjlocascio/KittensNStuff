@@ -20,7 +20,8 @@
 	
 	// 'layer' is an autorelease object.
 	HelloWorldLayer *layer = [HelloWorldLayer node];
-	
+	CCNode *test = [CCSprite spriteWithFile:@"ff"];
+    CCSprite *t2 = [CCNode node];
 	// add layer as a child to scene
 	[scene addChild: layer];
 	
